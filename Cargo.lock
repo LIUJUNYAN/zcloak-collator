@@ -1749,7 +1749,6 @@ dependencies = [
 [[package]]
 name = "cumulus-ping"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
 dependencies = [
  "cumulus-pallet-xcm",
  "cumulus-primitives-core",
@@ -1765,6 +1764,7 @@ dependencies = [
 [[package]]
 name = "cumulus-ping"
 version = "0.1.0"
+source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
 dependencies = [
  "cumulus-pallet-xcm",
  "cumulus-primitives-core",
@@ -6060,7 +6060,6 @@ dependencies = [
 [[package]]
 name = "parachain-info"
 version = "0.1.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
@@ -6072,6 +6071,7 @@ dependencies = [
 [[package]]
 name = "parachain-info"
 version = "0.1.0"
+source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
@@ -11203,28 +11203,6 @@ dependencies = [
 [[package]]
 name = "statemint-common"
 version = "1.0.0"
-source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
-dependencies = [
- "frame-executive",
- "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "frame-system 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "node-primitives",
- "pallet-balances 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "pallet-collator-selection",
- "parity-scale-codec",
- "polkadot-primitives",
- "polkadot-runtime-common",
- "sp-consensus-aura",
- "sp-core 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "sp-io 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "sp-runtime 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
- "substrate-wasm-builder 4.0.0",
-]
-
-[[package]]
-name = "statemint-common"
-version = "1.0.0"
 dependencies = [
  "frame-executive",
  "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
@@ -11237,6 +11215,28 @@ dependencies = [
  "polkadot-primitives",
  "polkadot-runtime-common",
  "serde",
+ "sp-consensus-aura",
+ "sp-core 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "sp-io 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "sp-runtime 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "sp-std 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "substrate-wasm-builder 4.0.0",
+]
+
+[[package]]
+name = "statemint-common"
+version = "1.0.0"
+source = "git+https://github.com/paritytech/cumulus?branch=polkadot-v0.9.7#c5c3abf7eb9d4fdfb588d6560efaa8dca66a8dbc"
+dependencies = [
+ "frame-executive",
+ "frame-support 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "frame-system 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "node-primitives",
+ "pallet-balances 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
+ "pallet-collator-selection",
+ "parity-scale-codec",
+ "polkadot-primitives",
+ "polkadot-runtime-common",
  "sp-consensus-aura",
  "sp-core 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
  "sp-io 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.7)",
